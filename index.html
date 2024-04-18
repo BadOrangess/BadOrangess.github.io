@@ -1,10 +1,69 @@
 <!DOCTYPE html>
-<html>
+<html lang="zh">
 <head>
-  <title>简单的HTML页面</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML页面</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 1rem;
+        }
+        nav {
+            display: flex;
+            justify-content: space-around;
+            background-color: #555;
+            padding: 1rem 0;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            padding: 0.5rem;
+        }
+        nav a:hover {
+            background-color: #777;
+            border-radius: 5px;
+        }
+        main {
+            padding: 2rem;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 1rem;
+            margin-top: 2rem;
+        }
+    </style>
 </head>
 <body>
-  <h1>欢迎来到我的网站！</h1>
-  <p>这是一个简单的HTML页面。</p>
+    <header>
+        <h1>网站标题</h1>
+    </header>
+    <nav>
+        <a href="#">首页</a>
+        <a href="#">关于我们</a>
+        <a href="#">产品服务</a>
+        <a href="#">联系我们</a>
+    </nav>
+    <main>
+        <h2>精选内容</h2>
+        <p>这里是一些精选的内容，可以展示最新的新闻动态、热门话题等。</p>
+        <h2>图片展示</h2>
+        <img src="image1.jpg" alt="图片1">
+        <img src="image2.jpg" alt="图片2">
+        <img src="image3.jpg" alt="图片3">
+    </main>
+    <footer>
+        <p>版权所有 &copy; 2022 公司名称</p>
+        <p>联系方式：电话：123456789 邮箱：info@example.com</p>
+    </footer>
 </body>
 </html>
